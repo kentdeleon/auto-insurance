@@ -1,0 +1,65 @@
+.card-custom {
+    margin: 10px;
+    border-radius: 0.5rem;
+    filter: grayscale(100%);
+    transition: filter 2s;
+}
+
+.card-custom:hover {
+   
+    filter: grayscale(0%);
+    
+}
+
+.box1{
+    border: 2px solid black;
+    width: 200px;
+    height: 500px;
+}
+
+.card-custom-2{
+    margin: 20px;
+    border: none;
+ 
+}
+
+.section-getQuote-Button{
+    background-color: #74CEB7;
+    height: 500px;
+}
+
+.button-getQuote{
+    margin: auto;
+    color: white;
+}
+
+.article-custom{
+    margin: 0 auto;
+    width: 75%;
+    padding: 50px;
+}
+
+.footer-class{
+    background: #004056;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 1000px){
+    
+.card-custom {
+        height: 400px;
+    }
+.card-custom-2{
+    height: 700px;
+}
+.car-insurance-listing{
+    margin-bottom: 0;
+}
+.section-getQuote-Button{
+    background-color: #74CEB7;
+    height: 300px;
+}
+
+}
